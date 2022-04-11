@@ -33,6 +33,16 @@ class PetService {
         bio: "Sou um pinsher elétrico",
         id: "2"
     ));
+    _petList.add(Pet(
+        nome: "Narutinho",
+        imageUrl: 'assets/images/narutinho.jpg',
+        descricao: "Um ninja da folha",
+        idade: 2,
+        sexo: "Macho",
+        cor: "Preto",
+        bio: "Serei hokage com certeza, to certo",
+        id: "3"
+    ));
   }
 
   List getAllPets() {

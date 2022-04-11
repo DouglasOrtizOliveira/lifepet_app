@@ -14,7 +14,7 @@ class Main extends StatelessWidget {
       title: "Pet Life",
       home: LoginScreen(),
       theme: ThemeData(
-        primaryColor: Colors.redAccent,
+        primarySwatch: Colors.red,
       ),
       debugShowCheckedModeBanner: false,
     );
